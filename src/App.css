@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+}
+.sub-container {
+  height: 10vh;
+  background-color: #3367d6;
+  display: flex;
+  padding-left: 80px;
+  justify-content: space-between;
+  padding-right: 250px;
+}
+.pic-edit {
+  width: 200px;
+  padding: 10px;
+  padding-left: 30px;
+}
+.pic-edit2 {
+  width: 30px;
+}
+.sub-search {
+  display: flex;
+}
+.search {
+  width: 400px;
+  height: 40px;
+  background-color: #2850a7;
+  border: 2px solid #6697ff;
+  margin-top: 10px;
+}
+.search-logo-bg {
+  background-color: #2850a7;
+  height: 40px;
+  width: 60px;
+  margin-right: 2px;
+  margin-top: 10px;
+  border: 2px solid #6697ff;
+  text-align: center;
+  border-radius: 2px;
+}
+.sub-list {
+  background-color: #ffffff;
+  width: 1084px;
+  border-radius: 20px;
+  box-shadow: 10px 14px 18px 10px #ececec;
+}
+.sub-container2 {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-list {
+  display: flex;
+}
+.total-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.para1 {
+  padding: 20px;
+}
+.sub-list-logo {
+  display: flex;
+}
+.delete {
+  padding-right: 100px;
+}
+.para2 {
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.btn {
+  background-color: #ffffff;
+  border: 0px;
+}
